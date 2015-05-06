@@ -24,8 +24,6 @@ module Grenouille
     it 'can handle Swift 1.1 on iOS' do
       result = SwiftUpdate.new.update_to_latest_swift('spec/fixtures/Blueprint.swift')
 
-      puts result
-
       result[:report].count.should == 3
       result[:output].should == ''
     end

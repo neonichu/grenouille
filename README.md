@@ -1,5 +1,12 @@
 # Grenouille
 
+[![Build Status](https://img.shields.io/circleci/project/neonichu/grenouille.svg?style=flat)](https://circleci.com/gh/neonichu/grenouille)
+[![Coverage Status](https://coveralls.io/repos/neonichu/grenouille/badge.svg)](https://coveralls.io/r/neonichu/grenouille)
+[![Gem Version](http://img.shields.io/gem/v/grenouille.svg?style=flat)](http://badge.fury.io/rb/grenouille)
+[![Code Climate](http://img.shields.io/codeclimate/github/neonichu/grenouille.svg?style=flat)](https://codeclimate.com/github/neonichu/grenouille)
+
+![](perfume.gif)
+
 Grenouille uses Apple's `swift-update` tool to determine the version of Swift
 used in a set of files automatically.
 
@@ -53,7 +60,7 @@ needs at least that version to function.
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/grenouille/fork )
+1. Fork it ( https://github.com/neonichu/grenouille/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

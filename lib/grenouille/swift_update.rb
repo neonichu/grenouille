@@ -1,4 +1,5 @@
 require 'grenouille/xcode'
+require 'pathname'
 require 'tempfile'
 require 'yaml'
 

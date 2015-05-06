@@ -1,5 +1,4 @@
-require 'coveralls'
-Coveralls.wear!
+require 'simplecov'
 
 if ENV['CIRCLE_ARTIFACTS']
   require 'simplecov'

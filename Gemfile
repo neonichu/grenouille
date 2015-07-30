@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gemspec
 
+gem 'xcinvoke', git: 'https://github.com/segiddins/xcinvoke'
+
 group :development do
   gem 'bacon'
   gem 'mocha-on-bacon'

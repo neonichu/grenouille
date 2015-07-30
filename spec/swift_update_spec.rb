@@ -18,7 +18,7 @@ module Grenouille
       result = SwiftUpdate.new.update_to_latest_swift('spec/fixtures/Stargate.swift')
 
       result[:report].should == []
-      result[:output].start_with?('spec/fixtures/Stargate.swift:10:8: error: no such module \'PeerKit\'').should == true
+      result[:output].should.start_with 'spec/fixtures/Stargate.swift:10:8: error: no such module \'PeerKit\''
     end
 
     it 'can handle Swift 1.1 on iOS' do

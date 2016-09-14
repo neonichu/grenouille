@@ -1,5 +1,6 @@
 # Grenouille
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 [![Build Status](https://img.shields.io/circleci/project/neonichu/grenouille.svg?style=flat)](https://circleci.com/gh/neonichu/grenouille)
 [![Coverage Status](https://coveralls.io/repos/neonichu/grenouille/badge.svg)](https://coveralls.io/r/neonichu/grenouille)
 [![Gem Version](http://img.shields.io/gem/v/grenouille.svg?style=flat)](http://badge.fury.io/rb/grenouille)
